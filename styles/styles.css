@@ -9,22 +9,30 @@ img {
 .container {
     max-width: 970px;
     margin: 0 auto;
-    box-shadow: 10px 10px black;
+    box-shadow: 0 0 15px 10px rgba(181,181,181,1);
     padding: 0 100px;
     margin: 10px auto 30px auto;
 }
 
 div {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     background-color: white;
 }
 
-.upper {
+.header {
     height: 100px;
 }
 
 .left {
     background-color: lightblue;
+}
+
+.upmost {
+    padding-top: 15px;
+}
+
+.downmost {
+    padding-bottom: 50px;
 }
 
 @media (max-width: 992px) {
