@@ -2,14 +2,41 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Yana Slavcheva's CV</title>
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="content/bootstrap.min.css" rel="stylesheet" />
     <link href="styles/styles.css" rel="stylesheet" />
     <link href="styles/styles-print.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="scripts/libs/jquery-1.9.1.js"></script>
+    <script src="scripts/libs/bootstrap.js"></script>
+    <script src="scripts/libs/mustache.js-2.0.0/mustache.js"></script>
+
+    <script>
+        var view = {
+            name: "Joe",
+            occupation: "Web Developer"
+        };
+
+        function loadtemp() {
+            var output = Mustache.render("{{name}} is a  {{occupation}}", view);
+            document.getElementById('person').innerHTML = output;
+        }
+    </script>
+
+    <meta name="Yana Slavcheva's CV" content="width=device-width, initial-scale=1">
 </head>
-<body>
-    <script src="Scripts/jquery-1.9.1.js"></script>
-    <script src="Scripts/bootstrap.js"></script>
+
+<body onload="loadtemp()">
+
+
+
+
+    <p>Start test template</p>
+
+    <p id="person"></p>
+
+    <p>End test template</p>
+
+
 
     <div class="container">
         <!--upper non-useful part-->
@@ -21,16 +48,16 @@
         </div>
 
         <!--header part-->
-        <div class="row">
+        <header class="row">
             <div class="col-xs-12 col-md-12 col-lg-12">
                 <h1>Yana Slavcheva</h1>
                 <h3>CV to apply for the position ".NET Development Intern" in Indeavr</h3>
             </div>
-        </div>
+        </header>
 
         <!--essential part-->
         <div class="row">
-            <div class="col-xs-12 col-md-4 col-lg-4">
+            <aside class="col-xs-12 col-md-4 col-lg-4">
                 <div class="row">
                     <div class="col-xs-12 col-md-12 col-lg-12 left upmost">
                         <img src="images/yanaNew.jpg" alt="photo" />
@@ -49,13 +76,21 @@
                 <div class="row">
                     <div class="col-xs-12 col-md-12 col-lg-12 left">
                         <h2>Software Technologies And Skills</h2>
-                        <p>C#, ASP.NET, MS SQL Server, JavaScript, HTML5, CSS3, Web Services, Object-oriented Programming, Bootstrap</p>
+                        <ul class="important">
+                            <li>C#, ASP.NET</li>
+                            <li>MSSQL Server, MySQL</li>
+                            <li>JavaScript, jQuery</li>
+                            <li>HTML5, CSS3, Bootstrap</li>
+                            <li>Web Services</li>
+                            <li>Object-oriented Programming</li>
+                            <li>Design patterns, LINQ</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-md-12 col-lg-12 left">
                         <h2>Other Skills</h2>
-                        <p>Source Control Systems, Teamwork, Team Lead, Presentational Skills, Fast Learner, Professional Curiosity</p>
+                        <p>Source Control Systems, Teamwork, Leadership Skills, Presentational Skills, Fast Learner, Professional Curiosity</p>
                     </div>
                 </div>
                 <div class="row">
@@ -65,38 +100,97 @@
                         <p>German -> Beginner</p>
                     </div>
                 </div>
-            </div>
+            </aside>
             <div class="col-xs-12 col-md-8 col-lg-8">
-                <div class="row">
+                <section class="row">
                     <div class="col-xs-12 col-md-12 col-lg-12">
                         <h2>Software Projects</h2>
                         <div class="col-sm-12 col-md-12 col-lg-12">Sample project info</div>
                     </div>
-                </div>
-                <div class="row">
+                </section>
+                <section class="row">
                     <div class="col-xs-12 col-md-12 col-lg-12">
                         <h2>Education</h2>
                         <div class="col-sm-12 col-md-12 col-lg-12">Sample education</div>
                     </div>
-                </div>
-                <div class="row">
+                </section>
+                <section class="row">
                     <div class="col-xs-12 col-md-12 col-lg-12">
                         <h2>SoftUni Certificates</h2>
-                        <div class="col-sm-12 col-md-12 col-lg-12">C#, Object-oriented Programming, Databases, Database Applications, JavaScript, Advanced JavaScript, SPA with AngularJS, JavaScript Basics, Web Fundamentals (HTML5, CSS3), PHP Basics, Java Basics, Soft Skills, Teamwork And Personal Skills</div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <ul>
+                                <li>Level1</li>
+                                <li>Level2</li>
+                                <li>C# Basics</li>
+                                <li>Object-oriented Programming</li>
+                                <li>Databases</li>
+                                <li>Database Applications</li>
+                                <li>JavaScript</li>
+                                <li>Advanced JavaScript</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <ul>
+                                <li>SPA with AngularJS</li>
+                                <li>JavaScript Basics</li>
+                                <li>Web Fundamentals (HTML5, CSS3)</li>
+                                <li>PHP Basics</li>
+                                <li>Java Basics</li>
+                                <li>Soft Skills</li>
+                                <li>Teamwork And Personal Skills</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
+                </section>
+                <section class="row">
                     <div class="col-xs-12 col-md-12 col-lg-12">
                         <h2>Work Experience</h2>
-                        <div class="col-sm-12 col-md-12 col-lg-12">Sample work info</div>
+                        <article class="row">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <p>Jan 2011 - Mar 2014</p>
+                            </div>
+                            <div class="col-sm-12 col-md-8 col-lg-8">
+                                <h4>Architect, Manager, Owner</h4>
+                                <h5>W.A.I.Studio Ltd</h5>
+                                <p>Architecture, Interior design</p>
+                            </div>
+                        </article>
+                        <article class="row">
+                            <div class="col-sm-12 col-md-4 col-lg-4">
+                                <p>Jan 2004 - Jan 2011</p>
+                            </div>
+                            <div class="col-sm-12 col-md-8 col-lg-8">
+                                <h4>Architect, Drafstman</h4>
+                                <p>Architecture, Interior design, 3D Models</p>
+                            </div>
+                        </article>
                     </div>
-                </div>
-                <div class="row">
+                </section>
+                <section class="row">
                     <div class="col-xs-12 col-md-12 col-lg-12">
                         <h2>Volunteer Experience</h2>
-                        <div class="col-sm-12 col-md-12 col-lg-12">Sample volunteer info</div>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <article class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <p>Nov 2014</p>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-8">
+                                    <h4>Europe Code Week => "The Future is Code" Program</h4>
+                                    <p>A couple of lectures in a hign school in Sofia => "What does "programmer" mean, basic programming with Scratch."</p>
+                                </div>
+                            </article>
+                            <article class="row">
+                                <div class="col-sm-12 col-md-4 col-lg-4">
+                                    <p>Sept 2014</p>
+                                </div>
+                                <div class="col-sm-12 col-md-8 col-lg-8">
+                                    <h4>"Podarete Kniga" Foundation => "School for Employment" Program</h4>
+                                    <p>A couple of lectures in a hign school in Sofia => "What does "programmer" mean, basic programming with Scratch."</p>
+                                </div>
+                            </article>
+                        </div>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
     </div>

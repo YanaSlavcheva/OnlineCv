@@ -20,7 +20,7 @@ div {
 }
 
 .header {
-    height: 100px;
+    height: 80px;
 }
 
 .left {
@@ -33,6 +33,10 @@ div {
 
 .downmost {
     padding-bottom: 50px;
+}
+
+.important {
+    font-weight: 700;
 }
 
 @media (max-width: 992px) {
