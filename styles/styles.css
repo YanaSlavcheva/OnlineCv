@@ -43,18 +43,15 @@ div {
     margin-bottom: 15px;
 }
 
-.body {
-  height: auto;
-    position: relative;
+.col{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+    background-color: lightblue;
 }
 
-.left-side {
-  height: 100%;
+.col-wrap{
+    overflow: hidden; 
 }
-
-/*.right-side {
-  height: 100%;
-}*/
 
 @media (max-width: 992px) {
     .container {
