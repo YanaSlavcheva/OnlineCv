@@ -30,7 +30,7 @@
             },
             {
                 text: "Database Apps",
-                url: "#"
+                url: ""
             },
             {
                 text: "JavaScript",
