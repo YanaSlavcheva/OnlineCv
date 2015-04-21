@@ -7,8 +7,9 @@ img {
 }
 
 .container {
-    max-width: 970px;
-    margin: 0 auto;
+    max-width: 1200px;
+    -webkit-box-shadow: 0 0 15px 10px rgba(181,181,181,1);
+    -ms-box-shadow: 0 0 15px 10px rgba(181,181,181,1);
     box-shadow: 0 0 15px 10px rgba(181,181,181,1);
     padding: 0 100px;
     margin: 10px auto 30px auto;
@@ -24,7 +25,12 @@ div {
 }
 
 .left {
-    background-color: lightblue;
+    background-color: #add8e6;
+    /*border-right: 1px solid #add8e6;*/
+}
+
+.right {
+    text-align: right;
 }
 
 .upmost {
@@ -46,7 +52,12 @@ div {
 .col{
     margin-bottom: -99999px;
     padding-bottom: 99999px;
-    background-color: lightblue;
+    background-color: #add8e6;
+    /*border-right: 2px solid #add8e6;*/
+}
+
+.col-main-right {
+    border-right: none;
 }
 
 .col-wrap{

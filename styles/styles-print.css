@@ -1,8 +1,4 @@
 ﻿@media print {
-    .wrapper {  
-        width: 90em;
-    }
-
     .container {
         width: 80em;
     }

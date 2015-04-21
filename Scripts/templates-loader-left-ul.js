@@ -6,10 +6,16 @@
         heading: "Software Technologies And Skills",
         items: [
             {
-                text: "C#, .NET"
+                text: "C#, ASP.NET"
             },
             {
-                text: "MSSQL Server, MySQL, MongoDB"
+                text: "Object-Oriented Programming"
+            },
+            {
+                text: "Design patterns, LINQ"
+            },
+            {
+                text: "HTML5, CSS3, Bootstrap"
             },
             {
                 text: "JavaScript, jQuery, Noty"
@@ -18,16 +24,10 @@
                 text: "AngularJS, MustacheJS"
             },
             {
-                text: "HTML5, CSS3, Bootstrap"
+                text: "MSSQL Server, MySQL, MongoDB"
             },
             {
                 text: "Web Services"
-            },
-            {
-                text: "Object-oriented Programming"
-            },
-            {
-                text: "Design patterns, LINQ"
             }
         ]
     };
@@ -45,28 +45,19 @@
         heading: "SoftUni Certificates",
         items: [
             {
-                text: "Level2"
+                text: "Level1, Level2"
             },
             {
-                text: "Level1"
-            },
-            {
-                text: "C# Basics"
+                text: "C# Basics, Object-Oriented Programming"
             },
             {
                 text: "Web Fundamentals (HTML5, CSS3)"
             },
             {
-                text: "Databases"
+                text: "Databases, Database Apps"
             },
             {
-                text: "Database Applications"
-            },
-            {
-                text: "JavaScript Basics"
-            },
-            {
-                text: "Advanced JavaScript"
+                text: "JavaScript, Advanced JavaScript"
             },
             {
                 text: "SPA with AngularJS"
