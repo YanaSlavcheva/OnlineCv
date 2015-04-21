@@ -3,6 +3,10 @@
         width: 80em;
     }
 
+    a[href].no-print:after {
+            content: none;
+        }
+
     .col-md-1,
     .col-md-2,
     .col-md-3,
