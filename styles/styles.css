@@ -43,6 +43,19 @@ div {
     margin-bottom: 15px;
 }
 
+.body {
+  height: auto;
+    position: relative;
+}
+
+.left-side {
+  height: 100%;
+}
+
+/*.right-side {
+  height: 100%;
+}*/
+
 @media (max-width: 992px) {
     .container {
         padding: 0 15px;
