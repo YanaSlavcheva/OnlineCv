@@ -221,4 +221,16 @@
     .col-md-offset-0 {
         margin-left: 0;
     }
+
+    .left {
+        background-color: #add8e6 !important;
+    }
+
+    .col {
+        background-color: #add8e6 !important;
+    }
+
+    .col-main-right {
+        background-color: white !important;
+    }
 }

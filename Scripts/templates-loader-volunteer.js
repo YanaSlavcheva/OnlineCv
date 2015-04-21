@@ -7,12 +7,12 @@
         items: [
             {
                 date: "Nov 2014",
-                name: "Europe Code Week => \"The Future is Code\" Program",
+                name: "Europe Code Week: \"The Future is Code\" Program",
                 description: "A couple of lectures in a hign school in Sofia => \"What does \"programmer\" mean, basic programming with Scratch.\""
             },
             {
                 date: "Sept 2014",
-                name: "Give A Book\" Foundation => \"School for Employment\" Program",
+                name: "Give A Book\" Foundation: \"School for Employment\" Program",
                 description: "Assistant in WordPress lectures with children from orphanages. I delivered a lecture on Photoshop / GIMP."
             }
         ]

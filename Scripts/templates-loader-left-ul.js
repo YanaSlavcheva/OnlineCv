@@ -24,7 +24,7 @@
                 text: "AngularJS, MustacheJS"
             },
             {
-                text: "MSSQL Server, MySQL, MongoDB"
+                text: "MS SQL Server, MySQL, MongoDB"
             },
             {
                 text: "Web Services"

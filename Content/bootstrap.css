@@ -1552,6 +1552,13 @@ h6,
     color: inherit;
 }
 
+h4,
+.h4
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
     h1 small,
     h2 small,
     h3 small,
