@@ -14,55 +14,55 @@
             },
             {
                 text: "C# Basics",
-                url: "https://softuni.bg/Certificates/Details/72/edea8cf0"
+                url: "https://softuni.bg/Certificates/Details/3525/3984e219"
             },
             {
                 text: "Object-Oriented Programming",
-                url: "https://softuni.bg/Certificates/Details/1090/228530d6"
+                url: "https://softuni.bg/Certificates/Details/2786/d42b6d4f"
             },
             {
                 text: "Web Fundamentals (HTML5, CSS3)",
-                url: "https://softuni.bg/Certificates/Details/160/d90a472f"
+                url: "https://softuni.bg/Certificates/Details/3521/a6791e83"
             },
             {
                 text: "Databases",
-                url: "https://softuni.bg/Certificates/Details/1792/9e7d6af7"
+                url: "https://softuni.bg/Certificates/Details/2148/551e3724"
             },
             {
                 text: "Database Apps",
-                url: "https://softuni.bg/Certificates/Details/1989/258619ed"
+                url: "https://softuni.bg/Certificates/Details/2039/d0a106ab"
             },
             {
-                text: "JavaScript",
-                url: "https://softuni.bg/Certificates/Details/183/2e274a15"
+                text: "JavaScript Basics",
+                url: "https://softuni.bg/Certificates/Details/3520/31f6439f"
             },
             {
                 text: "Advanced JavaScript",
-                url: "https://softuni.bg/Certificates/Details/1093/1f8cecbc"
+                url: "https://softuni.bg/Certificates/Details/2785/393de9cb"
             },
             {
                 text: "JavaScript Applications",
-                url: "https://softuni.bg/Certificates/Details/1116/1ab10aa9"
+                url: "https://softuni.bg/Certificates/Details/2784/26952214"
             },
             {
                 text: "SPA with AngularJS",
-                url: "https://softuni.bg/Certificates/Details/1509/0e61bf0b"
+                url: "https://softuni.bg/Certificates/Details/2560/33777f30"
             },
             {
                 text: "Java Basics",
-                url: "https://softuni.bg/Certificates/Details/51/cb0ffe5d"
+                url: "https://softuni.bg/Certificates/Details/3523/1dd7ea9b"
             },
             {
                 text: "PHP Basics",
-                url: "https://softuni.bg/Certificates/Details/262/4d66a338"
+                url: "https://softuni.bg/Certificates/Details/3519/0bb1f8b1"
             },
             {
                 text: "Soft Skills",
-                url: "https://softuni.bg/Certificates/Details/334/b70c418e"
+                url: "https://softuni.bg/Certificates/Details/3524/c199ceac"
             },
             {
                 text: "Teamwork And Personal Skills",
-                url: "https://softuni.bg/Certificates/Details/280/2f370231"
+                url: "https://softuni.bg/Certificates/Details/3522/54682c1e"
             }]
     };
 
