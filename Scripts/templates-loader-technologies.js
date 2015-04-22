@@ -27,6 +27,9 @@
             },
             {
                 text: "Web Services"
+            },
+            {
+                text: "PHP, Java"
             }
         ]
     };

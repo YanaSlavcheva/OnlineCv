@@ -30,7 +30,7 @@
             },
             {
                 text: "Database Apps",
-                url: ""
+                url: "https://softuni.bg/Certificates/Details/1989/258619ed"
             },
             {
                 text: "JavaScript",
