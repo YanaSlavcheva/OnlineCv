@@ -19,7 +19,7 @@
     };
 
     // volunteering template
-    var volunteerTemplate = "<div class=\"col-xs-12 col-md-12 col-lg-12\"><h2>{{heading}}</h2><div class=\"col-sm-12 col-md-12 col-lg-12\">{{#items}}<article class=\"row smallArticle\"><div class=\"col-sm-12 col-md-4 col-lg-4\"><p>{{date}}</p></div><div class=\"col-sm-12 col-md-8 col-lg-8\"><h4>{{name}}</h4><p>{{description}}</p></div></article>{{/items}}</div></div>";
+    var volunteerTemplate = "<div class=\"col-xs-12 col-md-12 col-lg-12\"><h2>{{heading}}</h2><div class=\"col-sm-12 col-md-12 col-lg-12\">{{#items}}<article class=\"row smallArticle\"><div class=\"col-sm-12 col-md-4 col-lg-4\"><p class=\"custom-header\">{{date}}</p></div><div class=\"col-sm-12 col-md-8 col-lg-8\"><h4>{{name}}</h4><p>{{description}}</p></div></article>{{/items}}</div></div>";
 
     // load volunteering info
     var volunteerOutput = Mustache.to_html(volunteerTemplate, volunteerData);
