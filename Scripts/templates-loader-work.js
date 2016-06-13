@@ -3,18 +3,24 @@
     // work data model
     var workData = {
         heading: "Work Experience",
-        items: [
+        items: 
+            {
+                date: "Jan 2016 - Present",
+                name: "Web Developer (.NET)",
+                company: "SmartIT - Smart Innovative Technologies",
+                description: "Development of new web applications, maintaining and developing new features for existing web applications. Communicating with clients. Used technologies: .NET Framework, C#, DNN, ASP.NET MVC, ASP.NET WebForms, SQL Server, T-SQL, JavaScript, jQuery, HTML5, CSS3, Bootstrap, DevExpress UI Controls."
+            },
+            {
+                date: "May 2015 - Jan 2016",
+                name: "Software Developer (.NET)",
+                company: "SmartIT - Smart Innovative Technologies",
+                description: "Development of new features and maintaining existing desktop application. Used technologies: .NET Framework, C#, SQL Server, T-SQL,DevExpress UI Controls, WPF, XAML, WinForms."
+            },
             {
                 date: "Jan 2011 - Mar 2014",
                 name: "Architect, Manager, Owner",
                 company: "W.A.I.Studio Ltd",
                 description: "Architecture, Interior design"
-            },
-            {
-                date: "Jan 2004 - Jan 2011",
-                name: "Architect, Drafstman",
-                company: "Various Companies",
-                description: "Architecture, Interior design, 3D Models"
             }
         ]
     };

@@ -5,7 +5,7 @@
         heading: "Education",
         items: [
             {
-                date: "March 2014 - Present",
+                date: "March 2014 - May 2015",
                 university: "Software University, Sofia",
                 title: "Scholarship Student",
                 description: "As a scholarship student I have worked on creating exam and homework problems, evaluating exams, preparing materials for courses, delivering exam preparation lectures.",

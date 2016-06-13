@@ -5,34 +5,32 @@
         heading: "Software Technologies And Skills",
         items: [
             {
-                text: "C#, ASP.NET"
+                text: "C#, .NET Framework"
             },
             {
-                text: "Object-Oriented Programming"
+                text: "OOP, Design patterns, LINQ"
             },
             {
-                text: "Design patterns, LINQ"
+                text: "ASP.NET MVC, ASP.NET WebForms"
             },
             {
-                text: "HTML5, CSS3, Bootstrap"
+                text: "MS SQL Server, T-SQL"
             },
             {
                 text: "JavaScript, jQuery, Noty"
             },
             {
-                text: "AngularJS, MustacheJS"
+                text: "HTML5, CSS3, Bootstrap"
             },
             {
-                text: "MS SQL Server, MySQL, MongoDB"
+                text: "DevExpress UI Controls"
             },
             {
-                text: "Web Services"
-            },
-            {
-                text: "PHP, Java"
+                text: "DotNetNuke"
             }
         ]
     };
+	
 
     // technologies and skills template
     var technologiesSkillsTemplate = "<div class=\"col-xs-12 col-md-12 col-lg-12 left\"><h2>{{heading}}</h2><ul class=\"important\">{{#items}}<li>{{text}}</li>{{/items}}</ul></div>";
