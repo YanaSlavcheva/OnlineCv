@@ -3,7 +3,7 @@
     // work data model
     var workData = {
         heading: "Work Experience",
-        items: 
+        items: [
             {
                 date: "Jan 2016 - Present",
                 name: "Web Developer (.NET)",

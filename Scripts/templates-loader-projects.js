@@ -6,13 +6,13 @@ var projectsData = {
     items: [{
         name: "Online Credits Application",
         technologies: "ASP.NET WebForms, DotNetNuke, SQL, T-SQL, JavaScript, jQuery, HTML5, CSS3",
-        description: "The project is property of Smart IT. It was created in collaboration with many people from the company. The project is web application that provides the clients the opportunity to apply for credit online. The application has complicated business logic.",
+        description: "The project is property of SmartIT. It was created in collaboration with many colleagues from the company. The project is web application that provides the clients the opportunity to apply for credit online. The application has complicated business logic.",
         links: [{ url: "https://www.vivacredit.bg/%D0%9A%D0%B0%D0%BD%D0%B4%D0%B8%D0%B4%D0%B0%D1%82%D1%81%D1%82%D0%B2%D0%B0%D0%B9", linkName: "Visit the project" }]
     },
     {
         name: "Happy Me",
         technologies: "ASP.NET MVC , SQL Server, JavaScript, Entity Framework, Bootstrap, HTML5, CSS3",
-        description: "Online educational platform supporting education, development and happiness of children with autism.",
+        description: "Online educational platform supporting education, development and happiness of children with autism. The project is created in collaboration with a couple of friends. With the project we won 2nd place in SoftUni TechFest in June 2016.",
         links: [{ url: "http://happyme.site/", linkName: "Visit the project" }]
     },
     {

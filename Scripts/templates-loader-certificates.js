@@ -35,10 +35,6 @@
             {
                 text: "SPA with AngularJS",
                 url: "https://softuni.bg/Certificates/Details/2560/33777f30"
-            },
-            {
-                text: "SoftUni - Other Certificates",
-                url: "https://softuni.bg/certificates/certificates"
             }]
     };
 
